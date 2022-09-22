@@ -1,0 +1,3 @@
+resize-disk                 usr/sbin
+resize-helper               usr/sbin
+resize-helper.service       lib/systemd/system

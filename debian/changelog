@@ -1,4 +1,4 @@
-96boards-tools (0.12) unstable; urgency=medium
+resize-helper (0.12) unstable; urgency=medium
 
   * Fix resize-disk on unpartitioned images
   * Drop grub files

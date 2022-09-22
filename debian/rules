@@ -8,4 +8,4 @@
 	dh $@ --fail-missing --with=systemd
 
 override_dh_systemd_start:
-	dh_systemd_start -p96boards-tools-common --no-start resize-helper.service
+	dh_systemd_start -p resize-helper --no-start resize-helper.service

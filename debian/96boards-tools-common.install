@@ -1,5 +1,0 @@
-70-96boards-common.rules    lib/udev/rules.d/
-96boards-sensors.sh         etc/profile.d/
-flash-hikey                 usr/share/96boards-tools/
-resize-helper               usr/sbin
-resize-helper.service       lib/systemd/system

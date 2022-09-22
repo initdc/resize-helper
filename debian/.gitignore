@@ -1,0 +1,5 @@
+.debhelper/
+resize-helper/
+resize-helper*
+!resize-helper.install
+files

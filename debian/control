@@ -1,17 +1,15 @@
-Source: 96boards-tools
+Source: resize-helper
 Section: utils
 Priority: optional
-Maintainer: Ricardo Salveti <ricardo.salveti@linaro.org>
-Uploaders: Fathi Boudra <fathi.boudra@linaro.org>
-Build-Depends: debhelper (>= 9), dh-systemd
+Maintainer: initdc <initd@outlook.com>
+Uploaders: initdc <initd@outlook.com>
+Build-Depends: debhelper (>= 9), apt
 Standards-Version: 3.9.6
-Vcs-Git: https://github.com/96boards/96boards-tools.git
-Homepage: https://github.com/96boards/96boards-tools
+Vcs-Git: https://github.com/initdc/resize-helper.git
+Homepage: https://github.com/initdc/resize-helper
 
-Package: 96boards-tools-common
+Package: resize-helper
 Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
 Depends: gdisk, parted, ${misc:Depends}
-Description: common files used by 96boards
- This package provides configuration and tools used to help
- bringing a common user experience across different 96Boards.
+Description: Resize root filesystem to fit available disk space
